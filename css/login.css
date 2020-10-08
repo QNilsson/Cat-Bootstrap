@@ -1,30 +1,17 @@
 html {
-    width: 100%;
+  width: 100%;
 }
-
 body {
-    width: 100%;
+  width: 100%;
+  text-align: center;
 }
-
+form {
+  max-width: 75vw;
+  align-items: center;
+}
+form label {
+  float: left;
+}
 .container-fluid {
-    width: 100%;
-}
-.col-3{
-    margin-left: 100px;
-    text-align: center;
-    font-weight: 100;
-}
-.display-4{
-    padding-bottom: 60px;
-    padding-top: 60px;
-}
-.form-row{
-    margin-top:20px;
-}
-.form-group{
-    margin-top:10px;
-
-}
-.back-2-home{
-    padding:15px;
+  width: 100%;
 }

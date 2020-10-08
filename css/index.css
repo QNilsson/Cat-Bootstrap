@@ -1,118 +1,108 @@
 html {
-    width: 100%;
+  width: 100%;
 }
-
 body {
-    width: 100%;
+  width: 100%;
+  text-align: center;
 }
-
+form {
+  max-width: 75vw;
+  align-items: center;
+}
+form label {
+  float: left;
+}
 .container-fluid {
-    width: 100%;
+  width: 100%;
 }
-
+html {
+  width: 100%;
+}
+body {
+  width: 100%;
+  color: darkgrey;
+}
+.container-fluid {
+  width: 100%;
+}
 .clear {
-    clear: both;
+  clear: both;
 }
-
 .box {
-    background: red;
+  background: red;
 }
-
 .box2 {
-    background: gray;
+  background: gray;
 }
-
 nav {
-    float: right;
-    color: #FF0000;
-    font-family: Helvetica, sans-serif;
+  color: #FF0000;
+  font-family: Helvetica, sans-serif;
 }
-
 nav ul li ul.sub-nav {
-    display: none;
+  display: none;
 }
-
 .display-4 {
-    padding: 150px 0px 0px 0px;
-    text-align: left;
+  padding: 150px 0px 0px 0px;
+  text-align: left;
 }
-
 .subtitle {
-    display: block;
+  display: block;
 }
-
 #left-text-block {
-    padding: 24px;
-    padding-top: 100px;
+  padding: 100px 10px 0px 0px;
 }
-
 #mid-text-block {
-    padding: 24px;
-    padding-top: 100px;
+  padding: 100px 10px 0px 0px;
 }
-
 #right-text-block {
-    padding: 24px;
-    padding-top: 100px;
+  padding: 100px 10px 0px 0px;
 }
-
 #background {
-    background-color: lightgray;
+  background-color: lightgray;
 }
-
 #info {
-    padding: 100px 150px 20px 150px;
-    align-content: center;
+  padding: 100px 10px 20px 10px;
+  align-content: center;
 }
-
 .btn {
-    margin: 50px 0px 50px 0px;
-    align-content: left;
-    cursor: pointer;
+  margin: 50px 0px 50px 0px;
+  align-content: left;
+  cursor: pointer;
 }
-
 #kitty {
-    cursor: pointer;
-    
+  cursor: pointer;
 }
-
-#catPic{
-    border: 2px solid pink;
+#centerLogIn {
+  justify-content: center;
+  align-content: center;
 }
-
-
 .top-buffer {
-    margin-top: 20px;
+  margin-top: 20px;
 }
-
 h1,
 h2,
 h3 {
-    text-align: center;
-    font-weight: 100;
-    padding-top: 15px;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 15px;
 }
-
-
 #centerPar {
-    text-align: center;
-    padding-top: 15px;
-    font-weight: 100;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 100;
 }
-
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-
 .col-4 {
-    align-content: center;
-    justify-content: center;
-    text-align: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
 }
-
 .page-footer {
-    background-color: navy;
-    color: white;
+  background-color: navy;
+  color: white;
 }
+/*# sourceMappingURL=main.css.map */
